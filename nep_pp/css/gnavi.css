@@ -1,0 +1,28 @@
+/* gNavi
+------------------------------------------------------------ */
+
+#gNavi {
+	margin-left: 60px;
+	width: 783px;
+	height: 65px;
+	padding: 0px 35px 30px 35px;
+	overflow: hidden;
+}
+#gNavi li{
+	float: left;
+	pst-style-type:none;
+	position: relative;
+	background-image: url(../img/gnavi.png);
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 65px;
+	text-indent:-9877em;
+}
+#gNavi li a{ 
+	width: 155px;
+	height: 65px;
+	display:block;  
+	text-decoration:none;  
+	overflow:hidden;
+}
+

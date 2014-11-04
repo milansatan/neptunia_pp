@@ -1,0 +1,153 @@
+body {
+	font-size: 14px;
+	line-height: 1.8em;
+	color: #333333;
+	min-width: 1000px;
+	background-attachment: fixed;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #F8DB77;
+}
+
+object, embed { /* firefox */
+	 vertical-align: top;  
+}
+a {
+	color: #333;
+}
+a:hover {
+	color: #F69;
+}
+.clear {
+	clear: both;
+}
+#all {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto 30px auto;
+	/* z-index: 99999; */
+}
+#topimgBox {
+	padding-top: 650px;
+}
+#topimgBooxLogo {
+	/* display: none; */
+	position: absolute;
+	left: 20px;
+	top: -200px;
+}
+#topimgBooxNep {
+	max-width: 1200px;
+	min-width: 1000px;
+	margin: 0 auto;
+	background-image: url(../img/nep.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+#header {
+}
+#banaBox {
+	text-align: center;
+}
+#banaBox img {
+	border: 1px solid #B2AFFE;
+	margin: 3px;
+}
+#container {
+	text-align: center;
+
+}
+#spec {
+	text-align: center;
+	clear: both;
+	background: url(../img/bg_spec.png);
+	padding: 10px;
+}
+#footer {
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+	padding: 10px;
+	width: 1300px;
+}
+
+/* float */
+.Box {
+	overflow:auto;
+}
+/*\*/
+	* html div.Box {overflow: visible;}
+/**/
+
+
+
+/* 
+---------------------------------------------------------------------------*/
+.conBox {
+	width: 838px;
+	padding: 50px;
+	margin: 0 auto;
+	background: url(../img/bg_con.png) center top no-repeat;
+	border: 1px solid #B2AFFE;
+	font-family: 'Cantarell', sans-serif;
+	font-weight: bold;
+}
+
+.h2name {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+
+/* news
+---------------------------------------------------------------------------*/
+dl {
+	width: 780px;
+	margin: 0 auto 15px auto;
+	background: url(../img/sincyaku.png) no-repeat;
+	background-color: #fff;
+	border: 1px solid #B2AFFE;
+	font-size: 12px;
+	padding: 4px 4px 4px 154px;
+	
+}
+dl dt {
+	cursor: pointer;
+	line-height: 2em;
+}
+dl dd {
+	display: none;
+	line-height: 1.5em;
+}
+
+
+
+/* footer
+------------------------------ */
+#ifHeader-white {
+	height: 40px;
+	min-width: 980px;
+	padding: 0 10px;
+	border-bottom: solid 1px #ccc;
+	background-color: #FFF;
+}
+#ifHeader-white img {
+	float: left;
+}
+#ifHeader-white #logo {
+	float: right;
+}
+#Footer-white{
+	text-align: center;
+	padding: 5px 0;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	background-color: #FFF;
+}
+#Footer-white img {
+	padding: 8px;
+}
+#Footer-white a {
+	color: #000;
+}
